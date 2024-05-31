@@ -12,7 +12,6 @@ $(document).ready(function () {
     }
 
     $('div.amenities h4').text(Object.values(amenities).join(', '));
-    
   });
 
   $.get('http://localhost:5001/api/v1/status/', function (data) {
