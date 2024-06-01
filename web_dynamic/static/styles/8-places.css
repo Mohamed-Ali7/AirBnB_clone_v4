@@ -99,3 +99,47 @@
 .user {
   margin-bottom: 1.5%;
 }
+
+.places article .reviews{
+    text-align: left;
+    margin-top: 40px;
+}
+
+.reviews_header {
+    display: flex;
+    border-bottom: 1px solid #DDDDDD;
+    justify-content: flex-start;
+}
+
+.reviews_header h2{
+    font-size: 16px;
+}
+
+.reviews_header span{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-left: 16px;
+    cursor: pointer;
+    color: #FF5A5F;
+}
+
+.places article .reviews ul{
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+.places article .reviews li h3{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.places article .reviews li p{
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.hide {
+    display: none;
+}
